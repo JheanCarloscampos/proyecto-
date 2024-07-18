@@ -1,7 +1,19 @@
 .logo_img {
-    width: 75px;
+    width: 60px;
 }
 
 .nav-link {
     color: #949494;
 }
+
+.nav-link:hover, .dropdown .nav-link.show {
+    color: aquamarine;
+}
+
+.position-obsolute {
+    position: relative;
+}
+.w-85 {
+    width: 85%;
+}
+

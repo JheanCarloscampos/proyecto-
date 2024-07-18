@@ -1,34 +1,58 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="./css/styles.css">
+        <meta charset="UTF-8"> 
+        <title>Proyecto 013</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Example</title>
+        <link rel="stylesheet" href="./css/styles.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </head>
     <body>
         <header class="fixed-top">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a href="https://frahmdigital.com/" class="navbar-brand">Logo
-                    <img src="./imagenes/logo.png" alt="Logo de la empresa" class="logo_img"> 
+            <nav class="navbar navbar-expand-lg navbar-dark w-85 mx-auto">
+                <a href="https://frahmdigital.com/" class="navbar-brand">
+                    <img src="./imagenes/logo.png" alt="Logo de la empresa" class="logo_img">
                 </a>
-                <button class="navbar-toggler" data-toggle="collapse data-target="#navbarnav" aria aria-controls="navbarnav" aria aria-expanded="false"aria aria-label="Toggle Navigation">
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collage navbar-collapse" id="navbarnav">
-                    <ul class="navbar-nav me-auto">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="#Servicios" class="nav-link"> Servicios</a>
+                            <a href="#servicios" class="nav-link"> Servicios</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#Nosotros" class="nav-link"> Nosotros</a>
+                            <a href="#nosotros" class="nav-link"> Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contacto" class="nav-link">contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#productos" class="nav-link"> productos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                            <ul class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <hr class="dropdown-divider"></hr>
+                            </ul>
                         </li>
                     </ul>
                 </div>
             </nav>
         </header>
+        <section class="banner">
+            <video autoplay loop muted preload="metadata" style="height: 720px; width: 100%; position: absolute; top: 0; transform: translate(0,-43px);">
+                <source src="https://frahmdigital.com/wp-content/uploads/2024/06/frahm-website-10sec.webm" type="video/webm">
+
+            </video>
+            <div class="contenido position-absolute">
+                <h1>
+                    Titulo de la pagina
+                </h1>
+            </div>
+    </section>
     </body>
 </html>
-
