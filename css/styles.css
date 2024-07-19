@@ -10,9 +10,7 @@
     color: aquamarine;
 }
 
-.position-obsolute {
-    position: relative;
-}
+
 .w-85 {
     width: 85%;
 }
@@ -23,5 +21,20 @@ video {
 
 
 .contenido {
-    bottom: 0%;
+    bottom: 20px; position: absolute;
+
+.minititulo {
+    font-size: 15px;
+    margin-bottom: 5%;
+    }
+    
+    .maxititulo {
+        font-size: 44px;
+    }
+}
+.elemento-video-banner {
+    width: 100%; position: relative; top: 0;object-fit: cover;
+}
+.banner {
+    height: 600px; overflow: hidden; 
 }
