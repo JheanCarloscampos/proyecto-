@@ -7,8 +7,10 @@
         <link rel="stylesheet" href="./css/styles.css">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </head>
+    
+    
     <body>
-        <header class="fixed-top">
+        <header class="mt-4 header">
             <nav class="navbar navbar-expand-lg navbar-dark w-85 mx-auto">
                 <a href="https://frahmdigital.com/" class="navbar-brand">
                     <img src="./imagenes/logo.png" alt="Logo de la empresa" class="logo_img">
@@ -31,7 +33,9 @@
                             <a href="#productos" class="nav-link"> productos</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false"></a>
+
                             <ul class="dropdown-menu">
                             <a class="dropdown-item" href="#">Action</a>
                             <a class="dropdown-item" href="#">Another action</a>
@@ -44,16 +48,17 @@
             </nav>
         </header>
         <section class="banner position-relative">
-            <video class="elemento-video-banner" autoplay loop muted preload="metadata">
+            <video autoplay loop muted preload="metadata" class="ocultar-mobile">
                 <source src="https://frahmdigital.com/wp-content/uploads/2024/06/frahm-website-10sec.webm" type="video/webm">
             </video>
+            <img src="https://frahmdigital.com/wp-content/uploads/2020/07/frahm-digital-home-mobile-header.jpg" alt="" class="mostrar-mobile">
         <div class="w-85 mx-auto">
             <div class="contenido position-absolute">
-                <p class="text-white minititulo"> CREATIVE MARKETING SERVICES </p>
-                <h1 class="text-white maxititulo">
+                <p class="text-white fw-normal"> CREATIVE MARKETING SERVICES </p>
+                <h1 class="text-white fw-semibold">
                 Titulo de la pagina
                 </h1>
-                <p class="text-white fs-5">
+                <p class="text-white fs-5 fw-light">
                     We build attractive creative media for a variety of brands. Explore our web development, design,
                     SEO, videography, writing services and more.
                 </p>

@@ -22,19 +22,34 @@ video {
 
 .contenido {
     bottom: 20px; position: absolute;
-
-.minititulo {
-    font-size: 15px;
-    margin-bottom: 5%;
-    }
-    
-    .maxititulo {
-        font-size: 44px;
-    }
 }
 .elemento-video-banner {
     width: 100%; position: relative; top: 0;object-fit: cover;
 }
 .banner {
     height: 600px; overflow: hidden; 
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.mostrar-mobile {
+    display: none;
+}
+
+.ocultar-mobile {
+    display: block;
+}
+
+@media (max-width: 990px) {
+    .ocultar-mobile {
+        display: none;
+    }
+
+    .mostrar-mobile {
+        display: block;
+    }
 }
