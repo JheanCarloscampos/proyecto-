@@ -1,0 +1,49 @@
+{
+    "nike": [
+        {
+        "modelo": "Modelo 1",
+        "precio": 228000,
+        "imagen": "./imagenes/nike.png"
+        },
+        {
+        "modelo": "Modelo 2",
+        "precio": 180000,
+        "imagen": "./imagenes/nike2.png"
+        },
+        {
+        "modelo": "Modelo 3",
+        "precio": 210000,
+        "imagen": "./imagenes/nike3.png"
+        },
+        {
+        "modelo": "Modelo 4",
+        "precio": 228000,
+        "imagen": "./imagenes/nike4.png"
+        },
+        {
+        "modelo": "Modelo 5",
+        "precio": 180000,
+        "imagen": "./imagenes/nike5.png"
+        },
+        {
+        "modelo": "Modelo 6",
+        "precio": 210000,
+        "imagen": "./imagenes/nike6.png"
+        },
+        {
+        "modelo": "Modelo 7",
+        "precio": 228000,
+        "imagen": "./imagenes/nike7.png"
+        },
+        {
+        "modelo": "Modelo 8",
+        "precio": 180000,
+        "imagen": "./imagenes/nike8.png"
+        },
+        {
+        "modelo": "Modelo 9",
+        "precio": 210000,
+        "imagen": "./imagenes/nike9.png"
+        }
+    ]
+}

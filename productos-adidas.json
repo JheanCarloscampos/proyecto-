@@ -1,0 +1,50 @@
+{
+    "adidas":
+    [
+        {
+            "modelo": "Modelo 1",
+            "precio": 200000,
+            "imagen": "./imagenes/adidas.png"
+        },
+        {
+            "modelo": "Modelo 2",
+            "precio": 140000,
+            "imagen": "./imagenes/adidas2.png"
+        },
+        {
+            "modelo": "Modelo 3",
+            "precio": 239000,
+            "imagen": "./imagenes/adidas3.png"
+        },
+        {
+            "modelo": "Modelo 4",
+            "precio": 200000,
+            "imagen": "./imagenes/adidas4.png"
+        },
+        {
+            "modelo": "Modelo 5",
+            "precio": 120000,
+            "imagen": "./imagenes/adidas5.png"
+        },
+        {
+            "modelo": "Modelo 6",
+            "precio": 239000,
+            "imagen": "./imagenes/adidas6.png"
+        },
+        {
+            "modelo": "Modelo 7",
+            "precio": 200000,
+            "imagen": "./imagenes/adidas7.png"
+        },
+        {
+            "modelo": "Modelo 8",
+            "precio": 120000,
+            "imagen": "./imagenes/adidas8.png"
+        },
+        {
+            "modelo": "Modelo 9",
+            "precio": 239000,
+            "imagen": "./imagenes/adidas9.png"
+        }
+    ]
+}

@@ -12,26 +12,26 @@
 
     <div class="shopping-cart">
     <h1>Carrito de Compras</h1>
-    <div class="cart-items">
-        <div class="cart-item">
-        <img src="./imagenes/adidas.png" alt="Adidas">
-        <div class="product-details">
-        <h4>Nombre del Producto</h4>
-        <p>200.000</p>
-        <p>Cantidad: 
-            <input type="number" value="1" min="1">
-        </p>
-        </div>
-        <div class="remove-item">
-            <button>Eliminar</button>
-        </div>
-    </div>
-    </div>
-    <div class="cart-summary">
-        <h3>Resumen del Pedido</h3>
-        <p>Total: $XX.XX</p>
-        <button>Finalizar Compra</button>
-    </div>
+    <!-- Dentro de carrito.html -->
+<div class="cart-items" id="cart-items">
+    <!-- Los productos se agregarán aquí dinámicamente -->
 </div>
+<div class="cart-summary">
+    <h3>Resumen del Pedido</h3>
+    <p>Total: $<span id="total">0.00</span></p>
+    <button id="checkout-button">Finalizar Compra</button>
+</div>
+
+<!-- Vincula el archivo cart.js -->
+
+
+</div>
+
+<script src="js/cart.js"></script>
+
+
+
+
+
 </body>
 </html>

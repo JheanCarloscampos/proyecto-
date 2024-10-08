@@ -1,0 +1,48 @@
+{
+    "newBalance":[
+    {
+        "modelo": "Modelo 1",
+        "precio": 300000,
+        "imagen": "./imagenes/nb.png"
+    },
+    {
+        "modelo": "Modelo 2",
+        "precio": 250000,
+        "imagen": "./imagenes/nb2.png"
+    },
+    {
+        "modelo": "Modelo 3",
+        "precio": 280000,
+        "imagen": "./imagenes/nb3.png"
+    },
+    {
+        "modelo": "Modelo 4",
+        "precio": 300000,
+        "imagen": "./imagenes/nb4.png"
+    },
+    {
+        "modelo": "Modelo 5",
+        "precio": 250000,
+        "imagen": "./imagenes/nb5.png"
+    },
+    {
+        "modelo": "Modelo 6",
+        "precio": 280000,
+        "imagen": "./imagenes/nb6.png"
+    },
+    {
+        "modelo": "Modelo 7",
+        "precio": 300000,
+        "imagen": "./imagenes/nb7.png"
+    },
+    {
+        "modelo": "Modelo 8",
+        "precio": 250000,
+        "imagen": "./imagenes/nb8.png"
+    },
+    {
+        "modelo": "Modelo 9",
+        "precio": 280000,
+        "imagen": "./imagenes/nb9.png"
+    }
+]}
